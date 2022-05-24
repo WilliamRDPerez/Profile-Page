@@ -1,0 +1,334 @@
+.background{
+    width: auto;
+    height: auto;
+    z-index: 0;
+    position: absolute;
+}
+
+.everything{
+    z-index: 1;
+    position: relative;
+}
+/*Usercard*/
+.toptask{
+    background-color: rgb(247, 162, 201);
+    color: black;
+    width: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 5px 10px pink;
+}
+.profile{
+    margin-left: 300px;
+}
+.options{
+    margin-left: 20px;
+}
+.signout{
+    margin-left: 450px;
+    background-color: rgb(69, 250, 99);
+    color: rgb(3, 3, 3);
+    height: 30px;
+    width: 100px;
+    box-shadow: 5px 5px 5px black;
+}
+.signout:hover{
+    transform: scale(1.1);
+}
+.signouts{
+    margin-left: 10px;
+}
+.usercard{
+    margin-top: 40px;
+    margin-left: 300px;
+    background-color: white;
+    border: solid gray;
+    height: 320px;
+    width: 700px;
+    box-shadow: 2px 10px 10px gray;
+}
+.mini{
+    background-color: rgb(247, 162, 201);
+    width: 700px;
+    z-index: 1;
+    height: 80px;
+    position: absolute;
+    box-shadow: 0px 5px 5px black;
+}
+/*profile pic*/
+.pfp{
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0px 5px 10px rgb(238, 146, 161);
+}
+.name{
+    margin-left: 20px;
+    margin-top: 2px;
+}
+/*location line*/
+.location{
+    width: 40px;
+    margin-top: 1px;
+    margin-left: 20px;
+    height: 40px;
+}
+.lasvegas{
+    font-size: 15px;
+}
+.whereabout{
+    display: flex;
+    align-items: center;
+}
+/*bio*/
+.professions{
+    margin-left: 20px;
+    font-size: 14px;
+}
+.bio{
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.settings{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+.edit{
+    margin-left: 5px;
+    text-decoration: underline;
+    color: rgb(59, 59, 228);
+}
+.Settings{
+    display: flex;
+    align-items: center;
+    width: 700px;
+}
+.Settings:hover{
+    font-size: 110%;
+    cursor: pointer;
+}
+
+/*education*/
+.raichu{
+    position: absolute;
+    height: 160px;
+    width: 700px;
+    z-index: 1;
+}
+
+.education{
+    height: 160px;
+    width: 700px;
+    border: solid gray;
+    margin-left: 300px;
+    margin-top: 40px;
+    box-shadow: 2px 10px 10px gray;
+    z-index: 2;
+    position: absolute;
+}
+.educationtask{
+    background-color: gray;
+    width: 700px;
+    height: 40px;
+    align-items: center;
+    box-shadow: 0px 5px 5px black;
+    z-index: 2;
+    position: absolute;
+}
+.edutext{
+    z-index: 2;
+    position: absolute;
+}
+.educate{
+    margin-left: 20px;
+    color: white;
+    z-index: 2;
+    position: absolute;
+}
+.codingdojo{
+    margin: 20px;
+    margin-top: -9px;
+}
+.date{
+    margin: 20px;
+    margin-top: -20px;
+    color: rgb(112, 112, 112);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.level{
+    margin: 20px;
+    margin-top: -2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*connnections*/
+.CR{
+    height: 160px;
+    width: 200px;
+    border: solid gray;
+    margin-left: 1040px;
+    margin-top: -325px;
+    box-shadow: 2px 10px 10px gray;
+    background-color: aliceblue;
+}
+.connections{
+    font-size: large;
+    margin-top: 0px;
+    align-content: center;
+    width: 200px;
+    height: 30px;
+    background-color: gray;
+    box-shadow: 0px 5px 5px black;
+}
+.text{
+    margin-left:10px;
+    color: white;
+}
+ol{
+    font-size: medium;
+    margin-left: -20px;
+    margin-top: -20px;
+}
+h2{
+    display: flex;
+    font-size: 20px;
+}
+.anonymous{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin-right: 4px; 
+    margin-left: -10px;
+    border: solid black;
+    box-shadow: 0px 2px 5px black;
+    display: flex;
+}
+.accept{
+    width: 40px;
+    height: 20px;
+}
+.decline{
+    width: 40px;
+    height: 20px;
+}
+.requests{
+    font-size: 20px;
+}
+/*your connections*/
+.lastbox{
+    width: 200px;
+    height: 340px;
+    border: solid gray;
+    margin-left: 1040px;
+    margin-top: 20px;
+    box-shadow: 2px 10px 10px gray;
+    background-color: aliceblue;
+}
+.yourconnect{
+    background-color: gray;
+    width: 200px;
+    height: 30px;
+    box-shadow: 0px 5px 5px black;
+    display: flex;
+    align-items: center;
+}
+.yc{
+    font-size: medium;
+    display: inline-block;
+    width: 200px;
+    margin-top: 20px;
+    
+}
+.ycc{
+    color: white;
+    margin-left: 2px;
+    margin-top: -2px;
+}
+.friends{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: -20px;
+}
+.BestFriends{
+    width: 200px;
+    height: 5px;
+    margin-top: -30px;
+    margin-left: -2px;
+    font-size: large;
+}
+.normal{
+    width: 200px;
+    height: 5px;
+    margin-top: 7px;
+    margin-left: -2px;
+    margin-bottom: -2px;
+    font-size: large;
+}
+.viewmore{
+    margin-left: 15px;
+    color: blue;
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.viewmore:hover{
+    transform: scale(1.07);
+}
+#connectionamount{
+    width: 30px;
+    height: 20px;
+    margin-left: 20px;
+}
+/*images*/
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.video{
+    border: solid black;
+    width: 940px;
+    height: 600px;
+    margin-left: 300px;
+    margin-top: 40px;
+}
+.Videodetails{
+    margin-top: 10px;
+    margin-left: 20px;
+    position: relative;
+    bottom: 40px;
+}
+
+.subscribe{
+    background-color: brown;
+    height: 30px;
+    width: 100px;
+    margin-left: 20px;
+    position: relative;
+    bottom: 20px;
+}
+
+.channel{
+    display: flex;
+    align-items: center;
+}
+.chickens{
+    border: solid rgb(255, 254, 254);
+   height: 280px;
+   width: 500px;
+   padding: 0%;
+   margin: 20px;
+}
+
+
+.shadow{
+    box-shadow: 5px 5px 5px black;
+    cursor: pointer;
+    position: relative;
+    bottom: 5px;
+}

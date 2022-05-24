@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ProfileCSS.css">
+</head>
+<body>
+<!--Background-->
+    <div class="background">
+        <img src="images/Mochi.png">
+    </div>
+<div class="everything">
+    <!--Profile-->
+     <div class="toptask">
+         <div class="profile"><h1>Profile</h1></div>
+         <div class="options">
+             <h3>Home  My Profile  Find Connections</h3>
+         </div>
+         <div class="signout"><h3 class="signouts" style="position:relative; top:-15px">Sign Out</h3></div>
+     </div>
+<!--UserCard-->
+     <div class="usercard">
+         <div class="mini"></div>
+        <img class="pfp" src="images/Mitsuri.png">
+        <h1 id="name" style="position:relative; top:-15px">Mitsuri K</h1>
+    <!--location-->
+        <div class="whereabout" style="position:relative; top:-30px">
+            <img class="location"  src="images/Location.png">
+            <h2 class="lasvegas">Igura, Tokyo</h2>
+        </div>
+    <!--professions-->
+        <div class="professions" style="position:relative; top:-40px">
+            <h3>Developer | Engineer | Problem Solver</h3>
+        </div>
+    <!--bio-->
+        <div class="bio" style="position:relative; top:-55px">Master of shadows and the Internet!</div>
+    <!--settings-->
+        <div class="Settings" style="position:relative; top:-60px">
+            <img class="settings" style="position:relative; top:10px;" src="images/settings.png">
+            <button onclick="editprofile()" class="edit" style="position:relative; top:10px;">edit profile</button>
+        </div>
+    </div>
+<!--Education-->
+     <div class="education">
+         <img class="raichu" src="images/Rachu.png">
+            <div class="educationtask" style="position:relative; top:-1px">            
+            <div class="edutext">
+                <h3 class="educate" style="position:relative; top:-10px">Education</h3>
+                <h2 class="codingdojo">Coding Dojo-Fullstack Bootcamp</h2>
+                <h3 class="date">May 2022-January 2023</h3>
+                <h3 class="level">White belt in HTML, CSS, and Python</h3>
+            </div>
+                
+            </div>
+                
+     </div>
+<!--Connection Requests-->
+     <div class="CR">
+        <h3 class="connections"><div class="text">Connection Requests</div></h3>
+        <h2 class="requests">
+            <ol>
+                <h2 id="request1"><img src="images/zenitsu.png" class="anonymous"> Zenitsu A <button class="accept" onclick="addFriend();decline()">yes</button><button class="decline" onclick="decline()">no</button></h2>
+                <h2 id="request2"><img src="images/muzan.png" class="anonymous">Michael Jackson <button class="accept"  onclick="addFriend();decline2()" >yes</button><button class="decline" onclick="decline2()">no</button></h2>
+            </ol>
+        </h2>
+     </div>
+<!--Your Connections-->
+     <div class="lastbox">
+         <div class="yourconnect">
+             <h3 class="ycc">Your Connections <h3 id="connectionamount">7+</h3></h3>
+         </div>
+    <ol class="yc" style="position:relative; top:10px">
+        <div class="friends">
+            <h1 class="BestFriends">Best Friends</h1>
+        </div>
+         <div class="friends"><img src=images/Obanai.png class="anonymous"><h2>Obanai I</h2></div>
+         <div class="friends"><img src="images/Rengoku.png" class="anonymous"><h2>Rengoku K</h2></div>
+         <h1 class="normal">Friends</h1>
+        <div class="friends"><img src="images/tanjiro.png" class="anonymous"><h2>Tanjiro K</h2></div>
+        <div class="friends"><img src="images/nezuko.png" class="anonymous"><h2>Nezuko K</h2></div>
+    </ol>
+    <div class="viewmore">
+         <h3>View More</h3>
+     </div>
+     </div>
+<!--Video-->
+<div class="video">
+    <video class="chickens" onmouseover="addShadow(this)"  onmouseleave="removeShadow(this)" src="videos/ChickenNuggets.mp4" controls></video>
+     <div class="Videodetails">
+         <h1 class="title">Hot Chicks</h1>
+         <h3>1 views  |  February 6, 2003</h3>
+     </div>
+     <div class="subscribe" onmouseover="addShadow(this)" onmouseleave="removeShadow(this)">
+         <h2>subscribe</h2>
+     </div>
+     <div class="channel">
+         <img class="pfp" src="images/Mitsuri.png">
+         <h3>William Rey Perez</h3>
+     </div>
+</div>     
+
+    </div>    
+
+    <script src="ProfileJavaScript.js"></script>
+</body>
+</html>
